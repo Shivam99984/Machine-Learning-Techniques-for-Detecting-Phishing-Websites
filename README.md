@@ -79,7 +79,7 @@ const apiKey = 'use your api key';
   <p align="center">
   <img src="Screenshot/home.jpg" width="1000" " />
   </p>
-  <figcaption> Fig.2: Home </figcaption>
+  <figcaption> Fig.1: Home </figcaption>
 </figure>
 <figure>
   <p align="center">
