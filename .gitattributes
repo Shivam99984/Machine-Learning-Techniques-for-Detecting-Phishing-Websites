@@ -1,3 +1,2 @@
-* linguist-vendored
 *.ipynb linguist-detectable =false
 *.html linguist-language=Django
