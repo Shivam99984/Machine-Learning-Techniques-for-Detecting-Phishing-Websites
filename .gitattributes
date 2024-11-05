@@ -1,2 +1,2 @@
 *.ipynb linguist-language=py
-*.pkl linguist-language=py
+*.pkl linguist-language=Python
