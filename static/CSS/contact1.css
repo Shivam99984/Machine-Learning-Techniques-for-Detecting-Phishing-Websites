@@ -1,0 +1,142 @@
+.contact1-contact20 {
+  gap: var(--dl-space-space-threeunits);
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-direction: column;
+}
+.contact1-max-width {
+  gap: var(--dl-space-space-threeunits);
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.contact1-content1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.contact1-contact-info1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.contact1-content2 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.contact1-text10 {
+  align-self: stretch;
+  text-align: center;
+}
+.contact1-content3 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.contact1-contact-info2 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.contact1-content4 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.contact1-text12 {
+  align-self: stretch;
+  text-align: center;
+}
+.contact1-content5 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.contact1-contact-info3 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.contact1-content6 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.contact1-text14 {
+  align-self: stretch;
+  text-align: center;
+}
+.contact1-fragment1 {
+  display: contents;
+}
+.contact1-text16 {
+  display: inline-block;
+  text-align: center;
+}
+.contact1-fragment2 {
+  display: contents;
+}
+.contact1-text17 {
+  display: inline-block;
+  text-align: center;
+}
+.contact1-fragment3 {
+  display: contents;
+}
+.contact1-text18 {
+  display: inline-block;
+  text-align: center;
+}
+.contact1-fragment4 {
+  display: contents;
+}
+.contact1-text19 {
+  display: inline-block;
+  text-align: center;
+}
+.contact1-fragment5 {
+  display: contents;
+}
+.contact1-text20 {
+  display: inline-block;
+  text-align: center;
+}
+.contact1-fragment6 {
+  display: contents;
+}
+.contact1-text21 {
+  display: inline-block;
+  text-align: center;
+}
+@media(max-width: 767px) {
+  .contact1-max-width {
+    flex-direction: column;
+  }
+}
