@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Selfish Steel Manatee</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" /> 
+    <meta property="twitter:card" content="summary_large_image" />
+    <link rel="shortcut icon" href="../static/download.png" type="icon/png" sizes="32x32"/>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    {% block navbar2 %} 
+        {% include "navbar2.html" %}
+    {% endblock %}
+
+    <!-- Hero Section -->
+    <div class="main-content">
+
+    {% block hero2 %}
+    <div id="hero2">
+        {% include "hero2.html" %}
+    </div>
+    {% endblock %}
+
+    <!-- Feature Section -->
+    {% block feature %}
+    <div id="feature">
+        {% include "features24.html" %}
+    </div>
+    {% endblock %}
+
+    <!-- CTA Section -->
+    {% block cta2 %}
+    <div id="cta2">
+        {% include "cta2.html" %}
+    </div>
+    {% endblock %}
+
+    <!-- Another Feature Section -->
+    {% block feature2 %}
+    <div id="feature2">
+        {% include "features25.html" %}
+    </div>
+    {% endblock %}
+
+    <!-- Pricing Section -->
+    {% block pricing %}
+    <div id="pricing">
+        {% include "pricing4.html" %}
+    </div>
+    {% endblock %}
+
+    <!-- Steps Section -->
+    {% block steps %}
+    <div id="steps">
+        {% include "steps2.html" %}
+    </div>
+    {% endblock %}
+
+    <!-- Testimonial Section -->
+    {% block testimonial %}
+    <div id="testimonial">
+        {% include "testimonial17.html" %}
+    </div>
+    {% endblock %}
+
+    <!-- Contact Section -->
+    {% block contact %}
+    <div id="contact">
+        {% include "contact1.html" %}
+    </div>
+    {% endblock %}
+
+    <!-- Footer -->
+    {% block footer %}
+    <div id="footer">
+        {% include "footer4.html" %}
+    </div>
+    {% endblock %}
+
+    {% block footer1 %}
+    <div id="footer1">
+        {% include "footer1.html" %}
+    </div>
+    {% endblock %}
+
+    </div>
+
+    <!-- Script to update page title on scroll -->
+    <script>
+          // Listen to the scroll event
+          window.addEventListener('scroll', updateTitleOnScroll);
+        
+          // Update title initially in case the page loads scrolled
+          window.addEventListener('load', updateTitleOnScroll);
+          
+        // Function to check which section is in view
+        function updateTitleOnScroll() {
+            const sections = [
+                { id: 'hero2', title: 'Home' },
+                { id: 'feature', title: 'Feature' },
+                { id: 'cta2', title: 'CTA' },
+                { id: 'feature2', title: 'Feature 2' },
+                { id: 'pricing', title: 'Pricing' },
+                { id: 'steps', title: 'Steps' },
+                { id: 'testimonial', title: 'Testimonial' },
+                { id: 'contact', title: 'Contact' }
+            ];
+
+            // Set a buffer (offset) for when we want to change the title (px from top)
+            const offset = 100; // Adjust as needed
+
+            sections.forEach(section => {
+                const element = document.getElementById(section.id);
+                const rect = element.getBoundingClientRect();
+
+                // Check if the section's top is near the top of the viewport
+                if (rect.top >= 0 && rect.top <= offset) {
+                    document.title = `${section.title} | Selfish Steel Manatee`;
+                }
+            });
+        }
+
+      
+    </script>
+</body>
+</html>
