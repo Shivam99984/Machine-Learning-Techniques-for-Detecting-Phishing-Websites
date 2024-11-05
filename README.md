@@ -74,6 +74,11 @@ In HTML(features25,features24)
 const apiKey = 'use your api key';
 
 ```
+
+# References
+
+- [Vaibhav Bichave](https://github.com/vaibhavbichave/Phishing-URL-Detection/tree/master)
+- [UI/UX Design](https://play.teleporthq.io/)
   
 
 
