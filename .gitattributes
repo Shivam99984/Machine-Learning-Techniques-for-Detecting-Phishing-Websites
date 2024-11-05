@@ -1,2 +1,2 @@
-*.ipynb linguist-language=Django
-*.pkl linguist-language=Django
+*.ipynb linguist-language=py
+*.pkl linguist-language=py
