@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check URL with Selfish Steel Manatee LIVE</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+        body {
+            font-family: "Roboto", Helvetica, Arial, Verdana, sans-serif;
+            background-color: #f7f7f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            width: 100%;
+            max-width: 600px;
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #474747;
+        }
+        input[type="text"] {
+            padding: 10px;
+            width: 80%;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+        }
+        .submit-button {
+            background-color: #ff7b2a;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .submit-button:hover {
+            background-color: #ff9135;
+        }
+        .submit-button:disabled {
+            background-color: #f7a25c;
+            cursor: not-allowed;
+        }
+        .results {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            display: none;
+        }
+        .error {
+            color: red;
+        }
+        .g-recaptcha {
+            display: inline-block;
+            margin: 20px 0;
+        }
+        /* Link styling */
+        a.miscat-link {
+            color: #474747;
+            text-decoration: none;
+        }
+        a.miscat-link:hover {
+            color: #e65103;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Check A URL with Selfish Steel Manatee LIVE</h1>
+    <p>Selfish Steel Manatee LIVE allows you to check a URL for its category and safety status. 
+        <a href="#!/miscat-report" class="miscat-link"><b>Found a Miscategorization? Report It!</b></a>
+    </p>
+
+    <form id="urlForm" action="/" method="post" >	
+        <input type="text" id="url" placeholder="Enter URL Here" required>
+        <br><br>
+
+        <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" data-callback="enableSubmit"></div>
+        <br>
+
+        <button type="submit" class="submit-button" id="submitButton" disabled>GET RESULTS</button>
+    </form>
+
+    <div class="results" id="results">
+        <h3>Results for <span id="urlResult"></span></h3>
+        <div id="form2">
+            <h6><a href="{{ url }}" target="_blank">{{ url }}</a></h6>
+            <h3 id="prediction"></h3>
+            <button class="button2" id="button2" role="button" onclick="window.open('{{ url }}')" target="_blank">Still want to Continue</button>
+            <button class="button1" id="button1" role="button" onclick="window.open('{{ url }}')" target="_blank">Continue</button>
+        </div>
+        <p id="resultMessage" class="error"></p>
+    </div>
+</div>
+
+<!-- Google reCAPTCHA -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+<!-- JavaScript -->
+<script>
+    // Enable the submit button when the reCAPTCHA is complete
+    function enableSubmit() {
+        document.getElementById('submitButton').disabled = false;
+    }
+
+    document.getElementById('urlForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        const urlInput = document.getElementById('urlInput').value;
+        const resultContainer = document.getElementById('results');
+        const resultMessage = document.getElementById('resultMessage');
+        const urlResult = document.getElementById('urlResult');
+
+        // Simulate an API request
+        if (urlInput) {
+            // Example handling for the form submission
+            urlResult.textContent = urlInput;
+            resultMessage.textContent = 'ERROR: Unable to contact server.';
+            resultContainer.style.display = 'block';
+
+            // Reset the reCAPTCHA after form submission
+            grecaptcha.reset();
+            
+            // Disable the submit button again
+            document.getElementById('submitButton').disabled = true;
+
+            // Reset the input field
+            document.getElementById('urlInput').value = '';
+        } else {
+            resultMessage.textContent = 'Please enter a valid URL.';
+            resultContainer.style.display = 'block';
+        }
+    });
+</script>
+
+</body>
+</html>
