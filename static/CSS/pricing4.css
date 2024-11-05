@@ -1,0 +1,317 @@
+.pricing4-pricing10 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.pricing4-max-width {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.pricing4-section-title {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.pricing4-content1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.pricing4-content2 {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  flex-shrink: 0;
+}
+.pricing4-column1 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.pricing4-content3 {
+  gap: 32px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.pricing4-price1 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.pricing4-list1 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.pricing4-list-item1 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.pricing4-list-item2 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.pricing4-list-item3 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.pricing4-button1 {
+  width: 100%;
+}
+.pricing4-column2 {
+  flex: 1;
+  width: auto;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  background-color: var(--dl-color-theme-accent1);
+}
+.pricing4-price2 {
+  gap: 32px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.pricing4-price3 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.pricing4-list2 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.pricing4-list-item4 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.pricing4-list-item5 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.pricing4-list-item6 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.pricing4-list-item7 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.pricing4-list-item8 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.pricing4-button2 {
+  width: 100%;
+}
+.pricing4-fragment10 {
+  display: contents;
+}
+.pricing4-text29 {
+  display: inline-block;
+}
+.pricing4-fragment11 {
+  display: contents;
+}
+.pricing4-text30 {
+  display: inline-block;
+  font-style: normal;
+  text-align: center;
+  font-weight: 600;
+}
+.pricing4-fragment12 {
+  display: contents;
+}
+.pricing4-text31 {
+  display: inline-block;
+  text-align: center;
+}
+.pricing4-fragment13 {
+  display: contents;
+}
+.pricing4-text32 {
+  display: inline-block;
+  text-align: center;
+}
+.pricing4-fragment14 {
+  display: contents;
+}
+.pricing4-text33 {
+  display: inline-block;
+}
+.pricing4-fragment15 {
+  display: contents;
+}
+.pricing4-text34 {
+  display: inline-block;
+  font-style: normal;
+  text-align: center;
+  font-weight: 600;
+}
+.pricing4-fragment16 {
+  display: contents;
+}
+.pricing4-text35 {
+  display: inline-block;
+}
+.pricing4-fragment17 {
+  display: contents;
+}
+.pricing4-text36 {
+  display: inline-block;
+}
+.pricing4-fragment18 {
+  display: contents;
+}
+.pricing4-text37 {
+  display: inline-block;
+}
+.pricing4-fragment19 {
+  display: contents;
+}
+.pricing4-text38 {
+  display: inline-block;
+  font-size: 48px;
+  text-align: center;
+}
+.pricing4-fragment20 {
+  display: contents;
+}
+.pricing4-text39 {
+  display: inline-block;
+}
+.pricing4-fragment21 {
+  display: contents;
+}
+.pricing4-text40 {
+  display: inline-block;
+}
+.pricing4-fragment22 {
+  display: contents;
+}
+.pricing4-text41 {
+  display: inline-block;
+  text-align: center;
+}
+.pricing4-fragment23 {
+  display: contents;
+}
+.pricing4-text44 {
+  display: inline-block;
+}
+.pricing4-fragment24 {
+  display: contents;
+}
+.pricing4-text45 {
+  display: inline-block;
+  text-align: center;
+}
+.pricing4-fragment25 {
+  display: contents;
+}
+.pricing4-text46 {
+  display: inline-block;
+}
+.pricing4-fragment26 {
+  display: contents;
+}
+.pricing4-text47 {
+  display: inline-block;
+  text-align: center;
+}
+.pricing4-fragment27 {
+  display: contents;
+}
+.pricing4-text48 {
+  display: inline-block;
+}
+.pricing4-fragment28 {
+  display: contents;
+}
+.pricing4-text49 {
+  display: inline-block;
+  font-size: 48px;
+  text-align: center;
+}
+@media(max-width: 767px) {
+  .pricing4-content2 {
+    flex-direction: column;
+  }
+  .pricing4-column2 {
+    width: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .pricing4-max-width {
+    gap: var(--dl-space-space-oneandhalfunits);
+  }
+  .pricing4-button1 {
+    width: 100%;
+  }
+  .pricing4-button2 {
+    width: 100%;
+  }
+}
