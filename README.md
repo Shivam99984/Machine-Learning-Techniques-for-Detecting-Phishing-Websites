@@ -89,6 +89,11 @@ const apiKey = 'use your api key';
   </p>
 </figure>
 
+# Team members 
+
+ - [Shubham Panwar](https://github.com/Panwarshubuu6969)
+
+   
 # References
 
 - [Vaibhav Bichave](https://github.com/vaibhavbichave/Phishing-URL-Detection/tree/master)
