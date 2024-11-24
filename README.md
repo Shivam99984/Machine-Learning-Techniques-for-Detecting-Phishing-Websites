@@ -92,6 +92,7 @@ const apiKey = 'use your api key';
 # Team members 
 
  - [Shubham Panwar](https://github.com/Panwarshubuu6969)
+ - [Shivam Yadav](https://github.com/Shivam99984)
 
    
 # References
